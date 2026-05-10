@@ -71482,6 +71482,11 @@
 	},
 /obj/structure/closet/cabinet,
 /obj/item/reagent_containers/cup/glass/baggie/meth/cocaine,
+/obj/item/stack/casino/chip/onehundred,
+/obj/item/stack/casino/chip/onehundred,
+/obj/item/stack/casino/chip/onehundred,
+/obj/item/stack/casino/chip/onehundred,
+/obj/item/stack/casino/chip/onehundred,
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/setite)
 "rWU" = (
@@ -95367,6 +95372,14 @@
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/interior/millennium_tower)
+"yfu" = (
+/obj/structure/platform/lowwall/market/window,
+/obj/structure/curtain/cloth/fancy/mechanical{
+	id = 9221;
+	pixel_y = 15
+	},
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/setite)
 "yfw" = (
 /obj/effect/decal/pallet{
 	pixel_x = 4;
@@ -204103,7 +204116,7 @@ mjT
 mjT
 mjT
 ucj
-xEp
+sDa
 xEp
 xEp
 oZO
@@ -205128,7 +205141,7 @@ iVn
 hTY
 ucj
 xEp
-sDa
+xEp
 xEp
 xEp
 xEp
@@ -258461,8 +258474,8 @@ hsK
 hsK
 hsK
 hsK
-hsK
-hsK
+yfu
+yfu
 hsK
 hsK
 hsK
