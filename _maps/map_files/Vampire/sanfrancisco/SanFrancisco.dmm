@@ -888,7 +888,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/wooden,
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "alf" = (
 /obj/effect/decal/rugs,
 /turf/open/floor/plating/canalplating,
@@ -2151,7 +2151,7 @@
 /area/vtm/outside/unionsquare)
 "aAC" = (
 /turf/closed/wall/vampwall/brick_old,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "aAH" = (
 /obj/effect/decal/wallpaper/light,
 /turf/closed/wall/vampwall/rich/old,
@@ -2400,7 +2400,7 @@
 	},
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "aFJ" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -3190,7 +3190,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "aRx" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -4544,7 +4544,7 @@
 /obj/structure/vampdoor/old,
 /obj/effect/mapping_helpers/door/access/setite,
 /turf/open/floor/plating/granite/black,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "bik" = (
 /obj/structure/closet/crate/freezer,
 /obj/item/wirecutters/pliers,
@@ -5095,7 +5095,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "bqv" = (
 /obj/structure/vampdoor/wood{
 	dir = 4
@@ -7456,7 +7456,7 @@
 	dir = 1
 	},
 /turf/open/water/vamp_sewer,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "bSH" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/wood/herring,
@@ -9123,7 +9123,7 @@
 	dir = 5
 	},
 /turf/open/water/vamp_sewer,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "cnQ" = (
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/large{
@@ -12282,7 +12282,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/wooden,
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "dgx" = (
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/littleitaly/apartments)
@@ -12379,7 +12379,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "dhz" = (
 /obj/structure/railing{
 	dir = 8
@@ -13443,7 +13443,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/cardboard,
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "duQ" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
@@ -13461,7 +13461,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plating/canal,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "duU" = (
 /obj/structure/table,
 /obj/item/paper_bin{
@@ -14556,7 +14556,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "dKf" = (
 /obj/machinery/sprinkler,
 /turf/open/floor/carpet/darkpack/old,
@@ -16931,7 +16931,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/cardboard,
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "enu" = (
 /obj/structure/lamppost/sidewalk/chinese{
 	dir = 4
@@ -17809,7 +17809,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plating/canal,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "eAr" = (
 /obj/machinery/light/warm/directional/south,
 /turf/open/floor/plating/concrete,
@@ -18815,7 +18815,7 @@
 	dir = 8
 	},
 /turf/open/water/vamp_sewer,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "eOC" = (
 /turf/closed/wall/vampwall/brick_old,
 /area/vtm/outside/ghetto)
@@ -19816,7 +19816,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "fbh" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating/sidewalk/poor,
@@ -20300,7 +20300,7 @@
 /turf/open/floor/iron/stairs/black{
 	dir = 1
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "fgn" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -20665,7 +20665,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "fkA" = (
 /obj/effect/turf_decal/box/white/corners{
 	dir = 1
@@ -20806,7 +20806,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "flN" = (
 /obj/structure/bed/maint,
 /obj/item/knife/shiv,
@@ -23943,7 +23943,7 @@
 	},
 /obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating/canal,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "gby" = (
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/large,
@@ -25127,7 +25127,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "grg" = (
 /obj/item/flashlight/flare/candle/infinite{
 	pixel_x = 13;
@@ -25540,7 +25540,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "gxu" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -25738,7 +25738,7 @@
 	dir = 10
 	},
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "gzJ" = (
 /obj/effect/turf_decal/bordur/corner,
 /turf/open/floor/plating/sidewalk/poor,
@@ -26343,7 +26343,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "gIe" = (
 /obj/structure/vampipe{
 	icon_state = "piping41"
@@ -26658,7 +26658,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "gMp" = (
 /obj/structure/curtain/bounty{
 	pixel_y = 15;
@@ -30029,7 +30029,7 @@
 "hFO" = (
 /obj/machinery/light/dim/directional/south,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "hGb" = (
 /obj/effect/turf_decal/siding/tan/end{
 	dir = 4
@@ -32052,7 +32052,7 @@
 	dir = 8
 	},
 /turf/open/water/vamp_sewer,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "ihf" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/hazardvest,
@@ -32092,7 +32092,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "iib" = (
 /obj/structure/flora/rock/stalagmite,
 /turf/open/misc/dirt,
@@ -32541,7 +32541,7 @@
 "imK" = (
 /obj/structure/closet/cardboard,
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "imQ" = (
 /obj/item/vamp/keys/camarilla{
 	accesslocks = list("malkav","malkav1","malkav2", "fireshelter");
@@ -33625,7 +33625,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/closet/cardboard,
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "iyf" = (
 /obj/structure/chair/comfy/darkpack/dark{
 	dir = 1
@@ -34577,7 +34577,7 @@
 	anchored = 1
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "iMr" = (
 /obj/structure/table/wood,
 /obj/item/kirbyplants/darkpack/random{
@@ -35395,7 +35395,7 @@
 "iZB" = (
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "iZD" = (
 /obj/effect/decal/rugs,
 /obj/effect/turf_decal/bordur{
@@ -35798,7 +35798,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/wooden,
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "jdZ" = (
 /obj/effect/turf_decal/asphaltline/alt,
 /obj/effect/turf_decal/asphaltline/alt{
@@ -36093,7 +36093,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "jhx" = (
 /obj/effect/turf_decal/bordur,
 /turf/closed/wall/vampwall/junk/alt,
@@ -36323,7 +36323,7 @@
 	dir = 6
 	},
 /turf/open/water/vamp_sewer,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "jkI" = (
 /obj/structure/vampfence/corner/rich{
 	dir = 4;
@@ -36675,7 +36675,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "joN" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 8
@@ -37440,7 +37440,7 @@
 "jwJ" = (
 /obj/structure/closet/cardboard,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "jwP" = (
 /obj/effect/decal/wallpaper/light/low{
 	color = "#509462"
@@ -37540,7 +37540,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "jyv" = (
 /obj/effect/turf_decal/siding/wideplating/green{
 	dir = 1
@@ -37639,7 +37639,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "jAl" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 4
@@ -39535,7 +39535,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "kaF" = (
 /obj/structure/vampipe{
 	icon_state = "piping32"
@@ -39927,7 +39927,7 @@
 	dir = 6
 	},
 /turf/open/water/vamp_sewer,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "kgi" = (
 /obj/machinery/vending/cola,
 /obj/machinery/light/cold/directional/north,
@@ -40022,7 +40022,7 @@
 	},
 /obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating/canal,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "khf" = (
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/plating/sidewalk,
@@ -40335,7 +40335,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "klH" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
@@ -41574,7 +41574,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "kBw" = (
 /obj/effect/decal/cleanable/blood{
 	icon_state = "splatter6-old"
@@ -42281,7 +42281,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/cardboard,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "kLe" = (
 /obj/structure/curtain/bounty{
 	pixel_y = 15
@@ -42870,7 +42870,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "kTm" = (
 /obj/structure/railing{
 	dir = 8
@@ -44374,7 +44374,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "lln" = (
 /obj/structure/chair/comfy/darkpack/blue{
 	dir = 8
@@ -44629,7 +44629,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "loI" = (
 /obj/effect/turf_decal/bordur,
 /turf/open/misc/dirt,
@@ -44722,7 +44722,7 @@
 	},
 /obj/effect/turf_decal/darkpack/cave,
 /turf/open/water/vamp_sewer,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "lpS" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -45049,7 +45049,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "ltJ" = (
 /obj/effect/turf_decal/bordur,
 /obj/structure/railing{
@@ -46797,7 +46797,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/wooden,
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "lSq" = (
 /turf/closed/wall/vampwall/painted,
 /area/vtm/interior/hotel)
@@ -47382,7 +47382,7 @@
 	dir = 10
 	},
 /turf/open/water/vamp_sewer,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "lZG" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/city/plating,
@@ -48807,7 +48807,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "mpn" = (
 /obj/effect/turf_decal/siding/wideplating/dark/corner{
 	dir = 1
@@ -50376,7 +50376,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "mLB" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/carpet/black,
@@ -51196,7 +51196,7 @@
 	},
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "mVt" = (
 /obj/machinery/light/small/directional/west,
 /obj/effect/decal/cleanable/litter,
@@ -51263,7 +51263,7 @@
 	},
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "mVY" = (
 /obj/structure/table,
 /obj/vampire_computer{
@@ -52239,7 +52239,7 @@
 	dir = 5
 	},
 /turf/open/water/vamp_sewer,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "njK" = (
 /mob/living/carbon/human/npc/guard,
 /turf/open/floor/city/plating,
@@ -53557,7 +53557,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "nAv" = (
 /turf/open/floor/city/plating,
 /area/vtm/interior/shop)
@@ -54415,7 +54415,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/large,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "nLa" = (
 /obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
@@ -55740,7 +55740,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "oaX" = (
 /obj/effect/turf_decal/bordur,
 /obj/structure/hedge,
@@ -57628,7 +57628,7 @@
 /area/vtm/interior/sewer)
 "oxW" = (
 /turf/open/water/vamp_sewer/border,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "oyg" = (
 /obj/effect/turf_decal/stock{
 	dir = 1
@@ -57899,7 +57899,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "oAY" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
@@ -58154,7 +58154,7 @@
 /area/vtm/interior/police)
 "oDO" = (
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "oEd" = (
 /obj/effect/decal/wallpaper/red,
 /turf/closed/wall/vampwall/junk/alt,
@@ -58372,7 +58372,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "oHc" = (
 /mob/living/carbon/human/npc/walkby,
 /obj/effect/decal/cleanable/litter,
@@ -59661,7 +59661,7 @@
 	dir = 9
 	},
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "oXu" = (
 /obj/effect/decal/cleanable/litter,
 /obj/effect/turf_decal/bordur,
@@ -59686,7 +59686,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/large,
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "oXQ" = (
 /obj/structure/flora/bush/sparsegrass/style_random{
 	pixel_y = 4
@@ -60032,7 +60032,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plating/canal,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "pcK" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 4
@@ -61278,7 +61278,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/cardboard,
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "prO" = (
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /obj/item/food/pizzaslice/square,
@@ -65487,7 +65487,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "qvN" = (
 /obj/effect/turf_decal/siding/wideplating/green/corner{
 	dir = 8
@@ -66022,7 +66022,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "qCM" = (
 /obj/effect/turf_decal/siding/grey/corner{
 	dir = 4
@@ -67527,7 +67527,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "qVH" = (
 /obj/item/clothing/suit/vampire/pentex_labcoat_alt,
 /obj/item/clothing/suit/vampire/pentex_labcoat_alt,
@@ -70330,7 +70330,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "rFY" = (
 /obj/machinery/light/red/directional/south,
 /obj/structure/closet/crate/large,
@@ -71405,7 +71405,7 @@
 	dir = 6
 	},
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "rVC" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/siding/wood/dark{
@@ -72443,7 +72443,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/closet/crate/wooden,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "sla" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
@@ -72698,7 +72698,7 @@
 	pixel_y = 20
 	},
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "soM" = (
 /obj/structure/chair/plastic/darkpack{
 	dir = 1
@@ -74535,7 +74535,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "sKA" = (
 /turf/closed/wall/vampwall/market,
 /area/vtm/outside/pacificheights)
@@ -78405,7 +78405,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "tKa" = (
 /obj/structure/table,
 /obj/item/reagent_containers/cup/bottle/formaldehyde,
@@ -78868,7 +78868,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "tPe" = (
 /obj/structure/vampfence/corner/rich{
 	dir = 4;
@@ -80306,7 +80306,7 @@
 	dir = 8
 	},
 /turf/open/water/vamp_sewer/border,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "uhe" = (
 /obj/machinery/griddle,
 /obj/effect/turf_decal/siding/white{
@@ -83005,7 +83005,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "uQY" = (
 /obj/structure/table/wood,
 /obj/item/newspaper,
@@ -83218,7 +83218,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "uUj" = (
 /obj/effect/turf_decal/siding/wood/dark/corner,
 /obj/structure/railing/corner,
@@ -83929,7 +83929,7 @@
 "vec" = (
 /obj/effect/realistic_fog/dense/strong,
 /turf/open/water/vamp_sewer,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "vep" = (
 /obj/effect/turf_decal/siding/wood/dark/corner{
 	dir = 4
@@ -85227,7 +85227,7 @@
 /area/vtm/interior/anarch)
 "vAK" = (
 /turf/closed/wall/vampwall/rock,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "vAM" = (
 /turf/closed/wall/vampwall/city,
 /area/vtm/interior/clinic/haven)
@@ -87594,7 +87594,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "wgq" = (
 /obj/effect/turf_decal/bordur/corner,
 /obj/structure/vampfence/corner{
@@ -88243,7 +88243,7 @@
 /obj/effect/mapping_helpers/door/access/setite,
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /turf/open/floor/plating/canal,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "wpo" = (
 /obj/structure/table/wood,
 /obj/vampire_computer{
@@ -88372,7 +88372,7 @@
 	dir = 8
 	},
 /turf/open/water/vamp_sewer,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "wqS" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -88396,7 +88396,7 @@
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "wra" = (
 /obj/structure/food_cart{
 	icon_state = "vat2"
@@ -89528,7 +89528,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "wEn" = (
 /obj/machinery/computer/arcade/orion_trail{
 	dir = 4;
@@ -91054,7 +91054,7 @@
 	dir = 4
 	},
 /turf/open/water/vamp_sewer/border,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "wZj" = (
 /obj/structure/railing{
 	dir = 4
@@ -91345,7 +91345,7 @@
 	dir = 4
 	},
 /turf/open/water/vamp_sewer,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "xcc" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green{
@@ -92311,7 +92311,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/stone,
-/area/vtm/interior/trujah)
+/area/vtm/interior/supply)
 "xph" = (
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/floor/wood/smooth/old,

@@ -18,7 +18,7 @@
 	/// The linked supplypod beacon
 	var/obj/item/supplypod_beacon/beacon
 	/// Where we droppin boys
-	var/area/landingzone = /area/station/cargo/storage
+	var/area/landingzone = /area/vtm/interior/supply // TFN EDIT CHANGE - [mapfixes 2]
 	var/pod_type = /obj/structure/closet/supplypod
 	/// If this console is locked and needs to be unlocked with an ID
 	var/locked = TRUE

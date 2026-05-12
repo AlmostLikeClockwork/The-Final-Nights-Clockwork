@@ -1171,11 +1171,6 @@
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/grass/nosmooth,
 /area/vtm/outside/penumbra)
-"nd" = (
-/obj/minespot/playable,
-/obj/minespot/playable,
-/turf/open/umbra,
-/area/vtm/outside/penumbra)
 "ng" = (
 /obj/structure/railing{
 	dir = 8
@@ -21271,7 +21266,7 @@ qF
 qF
 qF
 qF
-nd
+QO
 QO
 QO
 qF
