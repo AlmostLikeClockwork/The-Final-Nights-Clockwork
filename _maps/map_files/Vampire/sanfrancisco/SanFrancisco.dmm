@@ -7622,9 +7622,6 @@
 	pixel_x = 6
 	},
 /obj/item/storage/backpack/duffelbag/sec/surgery{
-	name = "bloody duffel bag";
-	icon_state = "duffel";
-	desc = "A large duffel bag for holding extra supplies - this one has a material inlay with space for various sharp-looking tools. There are some old, rust-colored blood stains on the bottom.";
 	pixel_y = 9;
 	pixel_x = -6
 	},
@@ -31661,9 +31658,6 @@
 /obj/item/ammo_box/darkpack/c45acp,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/anarch/basement)
-"ibI" = (
-/turf/open/misc/dirt,
-/area/vtm/interior/evergreen/caern)
 "ibL" = (
 /obj/effect/turf_decal/bordur,
 /obj/effect/landmark/npcbeacon,
@@ -32858,11 +32852,6 @@
 /obj/machinery/sprinkler,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
-"ipX" = (
-/obj/structure/fake_stairs/wood/directional/south,
-/obj/structure/fake_stairs/wood/directional/north,
-/turf/open/misc/dirt,
-/area/vtm/interior/evergreen/caern)
 "iqa" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/effect/turf_decal/siding/grey,
@@ -81044,6 +81033,7 @@
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 1
 	},
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/dirt,
 /area/vtm/interior/evergreen/caern)
 "urr" = (
@@ -94793,6 +94783,9 @@
 	dir = 4
 	},
 /obj/structure/railing/wooden_fence,
+/obj/item/flashlight/lantern/on{
+	pixel_x = 4
+	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/evergreen/caern)
 "xWj" = (
@@ -121600,7 +121593,7 @@ cIP
 cIP
 joi
 uWv
-ibI
+qPi
 iEv
 pSC
 wDm
@@ -123420,7 +123413,7 @@ uvs
 wDm
 wDm
 iJN
-ipX
+sIs
 gvg
 fjU
 wAQ
@@ -124236,7 +124229,7 @@ oBr
 wDm
 wDm
 pmG
-ipX
+sIs
 gvg
 fjU
 fjU
