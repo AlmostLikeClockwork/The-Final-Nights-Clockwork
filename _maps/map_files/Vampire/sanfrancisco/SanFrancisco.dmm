@@ -30899,7 +30899,7 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/clinic)
 "hRn" = (
-/obj/structure/vaultdoor/pincode/bank,
+/obj/structure/vaultdoor/pincode/casino,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/setite)
 "hRr" = (
