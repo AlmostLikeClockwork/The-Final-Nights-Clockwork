@@ -5,6 +5,6 @@
 		"date" = server_timestamp("Day, Month DD, "),
 		"time" = server_timestamp("hh:mm", ic_time = TRUE),
 		"author" = author,
-		//"thumbsup_voters" = list(),
-		//"thumbsdown_voters" = list(),
+		"thumbsup_voters" = list(), // TFN EDIT ADD - judge your friends
+		"thumbsdown_voters" = list(), // TFN EDIT ADD - judge your friends
 	))

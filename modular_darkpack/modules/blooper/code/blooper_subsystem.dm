@@ -1,4 +1,4 @@
-#define BLOOPER_CONFIG_PATH "[global.config.directory]/darkpack_config/bloopers"
+#define BLOOPER_CONFIG_PATH "[global.config.directory]/tfn_config/bloopers" // TFN EDIT CHANGE - Bloopers - Original :#define BLOOPER_CONFIG_PATH "[global.config.directory]/darkpack_config/bloopers"
 
 SUBSYSTEM_DEF(blooper)
 	name = "Blooper"
