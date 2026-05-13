@@ -309,7 +309,11 @@
 	dir = 8
 	},
 /obj/effect/landmark/start/darkpack/forest_wolves/guardian,
-/turf/open/floor/plating/rough/cave,
+/obj/effect/turf_decal/darkpack/dirt/corner,
+/obj/effect/turf_decal/darkpack/dirt{
+	dir = 1
+	},
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/evergreen/caern)
 "ado" = (
 /obj/structure/closet/cabinet,
@@ -426,6 +430,10 @@
 /obj/effect/decal/coastline/corner,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/fishermanswharf)
+"afc" = (
+/obj/item/flashlight/lantern/on,
+/turf/open/misc/grass,
+/area/vtm/interior/evergreen/caern)
 "afi" = (
 /obj/machinery/light/prince/directional/west{
 	pixel_y = 14
@@ -7498,6 +7506,7 @@
 "bRD" = (
 /obj/effect/turf_decal/darkpack/rough,
 /obj/effect/decal/garou_glyph/glasswalkers,
+/obj/structure/railing/wooden_fence,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/evergreen/caern)
 "bRH" = (
@@ -7577,13 +7586,13 @@
 /turf/open/water/vamp_sewer,
 /area/vtm/interior/sewer/nosferatu_warren)
 "bSE" = (
-/obj/effect/turf_decal/darkpack/cave{
-	dir = 9
-	},
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/flora/bush/reed/style_random{
 	pixel_x = -2;
 	pixel_y = -4
+	},
+/obj/effect/turf_decal/darkpack/dirt{
+	dir = 1
 	},
 /turf/open/water,
 /area/vtm/interior/evergreen/caern)
@@ -7762,6 +7771,17 @@
 "bUy" = (
 /turf/open/water/hot_spring,
 /area/vtm/interior/strip)
+"bUC" = (
+/obj/structure/table,
+/obj/item/defibrillator/loaded{
+	pixel_x = 6
+	},
+/obj/item/storage/backpack/duffelbag/sec/surgery{
+	pixel_y = 9;
+	pixel_x = -6
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/interior/evergreen/caern)
 "bUE" = (
 /obj/structure/ladder/manhole/up,
 /turf/open/floor/plating/rough/cave,
@@ -11457,9 +11477,7 @@
 /area/vtm/interior/sewer)
 "cRc" = (
 /obj/effect/landmark/start/darkpack/forest_wolves/keeper,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
-	},
+/turf/open/misc/grass,
 /area/vtm/interior/evergreen/caern)
 "cRg" = (
 /obj/effect/decal/wallpaper/paper/darkgreen/low,
@@ -11883,7 +11901,7 @@
 	pixel_y = 26
 	},
 /obj/structure/glowshroom/single,
-/turf/open/floor/plating/rough,
+/turf/open/misc/dirt,
 /area/vtm/interior/evergreen/caern)
 "cXh" = (
 /obj/effect/landmark/npcwall,
@@ -12397,6 +12415,13 @@
 /obj/structure/flora/rock/darkpack,
 /turf/open/misc/grass,
 /area/vtm/outside/forest)
+"deG" = (
+/obj/structure/chair/sofa/right/brown{
+	color = "#525252";
+	dir = 1
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/interior/evergreen/caern)
 "deU" = (
 /obj/machinery/sprinkler,
 /turf/open/floor/city/plating_mono,
@@ -13981,7 +14006,7 @@
 	pixel_x = -18
 	},
 /obj/effect/realistic_fog/dense,
-/turf/open/floor/plating/rough,
+/turf/open/misc/dirt,
 /area/vtm/interior/evergreen/caern)
 "dyq" = (
 /obj/effect/turf_decal/bordur{
@@ -17627,7 +17652,7 @@
 	pixel_x = 4
 	},
 /obj/structure/glowshroom/single,
-/turf/open/floor/plating/rough,
+/turf/open/misc/dirt,
 /area/vtm/interior/evergreen/caern)
 "erV" = (
 /obj/effect/decal/carpet{
@@ -19806,10 +19831,13 @@
 /turf/open/misc/dirt,
 /area/vtm/interior/sewer/nosferatu_warren)
 "eVA" = (
-/obj/effect/turf_decal/darkpack/cave,
 /obj/structure/railing/wooden_fence,
 /obj/effect/landmark/start/darkpack/forest_wolves/warder,
-/turf/open/floor/plating/rough,
+/obj/effect/turf_decal/darkpack/dirt,
+/obj/effect/turf_decal/darkpack/dirt{
+	dir = 1
+	},
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/evergreen/caern)
 "eVG" = (
 /obj/structure/table/countertop,
@@ -21044,16 +21072,7 @@
 /turf/open/floor/city/toilet,
 /area/vtm/interior/laundromat)
 "fjU" = (
-/obj/effect/turf_decal/darkpack/cave{
-	dir = 6
-	},
-/obj/effect/decal/wallpaper/stone/low{
-	pixel_y = 24
-	},
-/obj/effect/decal/shadow,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
-	},
+/turf/open/misc/grass,
 /area/vtm/interior/evergreen/caern)
 "fkg" = (
 /obj/effect/turf_decal/siding/grey/inner_corner,
@@ -21087,7 +21106,6 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/tzimisce_manor)
 "fkk" = (
-/obj/effect/turf_decal/darkpack/cave,
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
 	},
@@ -21098,9 +21116,7 @@
 	pixel_y = 16
 	},
 /obj/structure/glowshroom/single,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
-	},
+/turf/open/misc/dirt,
 /area/vtm/interior/evergreen/caern)
 "fkm" = (
 /obj/effect/turf_decal/bordur{
@@ -21548,11 +21564,8 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior/shop)
 "fqk" = (
-/obj/effect/turf_decal/darkpack/cave,
 /obj/structure/flora/rock/stalagmite,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
-	},
+/turf/open/misc/dirt,
 /area/vtm/interior/evergreen/caern)
 "fqo" = (
 /obj/structure/closet/crate/large,
@@ -22332,7 +22345,7 @@
 	dir = 8
 	},
 /obj/effect/landmark/start/darkpack/forest_wolves/guardian,
-/turf/open/floor/plating/rough/cave,
+/turf/open/misc/grass,
 /area/vtm/interior/evergreen/caern)
 "fzY" = (
 /obj/effect/turf_decal/siding/wood/dark,
@@ -24637,11 +24650,14 @@
 /turf/open/floor/city/circled,
 /area/vtm/interior/sewer/police)
 "geB" = (
-/obj/structure/flora/rock/pile/darkpack,
 /obj/effect/landmark/start/darkpack/forest_wolves/keeper,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
+/obj/effect/turf_decal/darkpack/dirt/corner{
+	dir = 1
 	},
+/obj/effect/turf_decal/darkpack/dirt{
+	dir = 1
+	},
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/evergreen/caern)
 "geD" = (
 /turf/closed/wall/vampwall/metal/reinforced,
@@ -25043,6 +25059,10 @@
 	pixel_y = 2
 	},
 /obj/effect/decal/rugs,
+/obj/item/veil_contract{
+	pixel_y = 10;
+	pixel_x = 10
+	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/evergreen/caern)
 "gjK" = (
@@ -25873,9 +25893,10 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police/upstairs)
 "gvg" = (
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
+/obj/effect/turf_decal/darkpack/dirt{
+	dir = 1
 	},
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/evergreen/caern)
 "gvq" = (
 /obj/structure/sink/directional/east,
@@ -26132,6 +26153,7 @@
 	name = "pet bed"
 	},
 /obj/item/dog_bone,
+/obj/effect/mapping_helpers/mob_buckler,
 /turf/open/misc/dirt,
 /area/vtm/interior/evergreen/caern)
 "gyL" = (
@@ -28233,6 +28255,7 @@
 /obj/effect/turf_decal/darkpack/cave/corner{
 	dir = 8
 	},
+/obj/item/flashlight/lantern/on,
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
@@ -30108,13 +30131,15 @@
 /obj/effect/turf_decal/darkpack/cave/corner{
 	dir = 4
 	},
-/obj/effect/turf_decal/darkpack/cave{
-	dir = 6
-	},
 /obj/structure/railing/wooden_fence{
 	dir = 6
 	},
-/turf/open/floor/plating/rough,
+/obj/item/flashlight/lantern/on,
+/obj/effect/turf_decal/darkpack/dirt{
+	dir = 6
+	},
+/obj/effect/turf_decal/darkpack/dirt/corner,
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/evergreen/caern)
 "hyB" = (
 /obj/effect/decal/wallpaper/paper/darkred/low,
@@ -32254,9 +32279,6 @@
 /obj/item/ammo_box/darkpack/c45acp,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/anarch/basement)
-"ibI" = (
-/turf/open/misc/dirt,
-/area/vtm/interior/evergreen/caern)
 "ibL" = (
 /obj/effect/turf_decal/bordur,
 /obj/effect/landmark/npcbeacon,
@@ -32553,7 +32575,7 @@
 	dir = 1
 	},
 /obj/effect/landmark/start/darkpack/forest_wolves/council,
-/turf/open/floor/plating/rough/cave,
+/turf/open/misc/grass,
 /area/vtm/interior/evergreen/caern)
 "ifd" = (
 /obj/effect/turf_decal/bordur,
@@ -35083,8 +35105,11 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/culture)
 "iJN" = (
-/obj/effect/turf_decal/darkpack/cave,
-/turf/open/floor/plating/rough,
+/obj/effect/turf_decal/darkpack/dirt,
+/obj/effect/turf_decal/darkpack/dirt/corner{
+	dir = 1
+	},
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/evergreen/caern)
 "iJP" = (
 /turf/open/floor/carpet/darkpack/old,
@@ -38118,9 +38143,7 @@
 	pixel_y = 24
 	},
 /obj/effect/decal/shadow,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
-	},
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/evergreen/caern)
 "jwD" = (
 /obj/structure/table/wood,
@@ -38272,9 +38295,7 @@
 /area/vtm/interior/shop)
 "jzc" = (
 /obj/effect/turf_decal/darkpack/cave,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
-	},
+/turf/open/misc/grass,
 /area/vtm/interior/evergreen/caern)
 "jzd" = (
 /obj/effect/decal/wallpaper/grey,
@@ -38571,9 +38592,11 @@
 "jDc" = (
 /obj/structure/table/wood,
 /obj/structure/platform/lowwall/brick_old,
-/obj/item/cultivator,
 /obj/item/reagent_containers/cup/watering_can/metal{
 	pixel_x = 11
+	},
+/obj/item/cultivator{
+	pixel_y = 10
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/evergreen/caern)
@@ -41353,13 +41376,17 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/clinic/haven)
 "kpx" = (
-/obj/effect/turf_decal/darkpack/cave{
-	dir = 10
-	},
 /obj/structure/railing/wooden_fence{
 	dir = 10
 	},
-/turf/open/floor/plating/rough,
+/obj/item/flashlight/lantern/on,
+/obj/effect/turf_decal/darkpack/dirt{
+	dir = 10
+	},
+/obj/effect/turf_decal/darkpack/dirt/corner{
+	dir = 1
+	},
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/evergreen/caern)
 "kpy" = (
 /obj/structure/hedge,
@@ -42609,6 +42636,12 @@
 /obj/effect/decal/wallpaper/paper/stripe,
 /turf/closed/wall/vampwall/painted,
 /area/vtm/interior/clinic)
+"kFA" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 9
+	},
+/turf/open/misc/grass,
+/area/vtm/interior/evergreen/caern)
 "kFD" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -44857,6 +44890,10 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/vtm/interior/museum)
+"lhP" = (
+/obj/item/flashlight/lantern/on,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/evergreen/caern)
 "lhR" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 4
@@ -45001,11 +45038,7 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility)
 "ljn" = (
-/obj/machinery/light/dim/directional/south,
-/obj/structure/chair/sofa/right/brown{
-	color = "#525252";
-	dir = 1
-	},
+/obj/machinery/light/directional/south,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/evergreen/caern)
 "ljs" = (
@@ -45448,7 +45481,7 @@
 	dir = 1
 	},
 /obj/effect/landmark/start/darkpack/forest_wolves/council,
-/turf/open/floor/plating/rough/cave,
+/turf/open/misc/grass,
 /area/vtm/interior/evergreen/caern)
 "lps" = (
 /turf/closed/wall/vampwall/junk,
@@ -45525,9 +45558,11 @@
 /obj/item/claymore/machete{
 	pixel_y = 6
 	},
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
+/obj/item/veil_contract{
+	pixel_y = 10;
+	pixel_x = 10
 	},
+/turf/open/misc/grass,
 /area/vtm/interior/evergreen/caern)
 "lqn" = (
 /turf/open/floor/wood/ornate,
@@ -49845,6 +49880,13 @@
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sewer)
+"msc" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 6
+	},
+/obj/item/flashlight/lantern/on,
+/turf/open/misc/grass,
+/area/vtm/interior/evergreen/caern)
 "msp" = (
 /obj/structure/pole{
 	pixel_w = -16
@@ -51217,7 +51259,7 @@
 	dir = 1
 	},
 /obj/effect/landmark/start/darkpack/forest_wolves/council,
-/turf/open/floor/plating/rough/cave,
+/turf/open/misc/grass,
 /area/vtm/interior/evergreen/caern)
 "mLP" = (
 /obj/structure/lamppost/sidewalk,
@@ -52277,14 +52319,6 @@
 	pixel_y = 24
 	},
 /obj/effect/decal/shadow,
-/obj/structure/table/wood{
-	density = 0
-	},
-/obj/structure/fluff/tv{
-	icon_state = "tv_analog";
-	pixel_y = 14;
-	density = 1
-	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/evergreen/caern)
 "mYh" = (
@@ -54477,9 +54511,7 @@
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 8
 	},
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone4"
-	},
+/turf/open/misc/grass,
 /area/vtm/interior/evergreen/caern)
 "nBq" = (
 /obj/structure/table,
@@ -58753,10 +58785,11 @@
 /turf/open/floor/city/circled,
 /area/vtm/interior/clinic)
 "oAT" = (
-/obj/structure/flora/rock/stalagmite,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone4"
+/obj/structure/bed/maint{
+	pixel_y = 5;
+	desc = "An old grubby mattress. It smells like wet dog."
 	},
+/turf/open/floor/plating/rough/cave,
 /area/vtm/interior/evergreen/caern)
 "oAV" = (
 /obj/item/soil_sack{
@@ -59544,9 +59577,7 @@
 	can_spread = 0;
 	pixel_y = 26
 	},
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
-	},
+/turf/open/misc/dirt,
 /area/vtm/interior/evergreen/caern)
 "oKQ" = (
 /obj/effect/decal/cleanable/litter,
@@ -61454,6 +61485,12 @@
 	color = "#bfbfbf"
 	},
 /area/vtm/outside/financialdistrict)
+"piO" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 6
+	},
+/turf/open/misc/grass,
+/area/vtm/interior/evergreen/caern)
 "piQ" = (
 /obj/structure/chair/pew/right{
 	dir = 1
@@ -61827,12 +61864,13 @@
 /turf/open/floor/carpet/red,
 /area/vtm/interior/chantry/basement)
 "pmG" = (
-/obj/effect/turf_decal/darkpack/cave,
 /obj/structure/spacevine{
 	can_spread = 0;
 	pixel_y = 26
 	},
-/turf/open/floor/plating/rough,
+/obj/effect/turf_decal/darkpack/dirt,
+/obj/effect/turf_decal/darkpack/dirt/corner,
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/evergreen/caern)
 "pmM" = (
 /obj/structure/chair/sofa/left/brown{
@@ -62033,13 +62071,8 @@
 /turf/open/floor/city/circled,
 /area/vtm/interior/shop)
 "ppn" = (
-/obj/effect/turf_decal/darkpack/cave{
-	dir = 9
-	},
-/obj/structure/flora/rock/pile/darkpack,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone4"
-	},
+/obj/structure/flora/rock/darkpack,
+/turf/open/misc/dirt,
 /area/vtm/interior/evergreen/caern)
 "ppq" = (
 /obj/structure/bed/medical/emergency,
@@ -63640,9 +63673,7 @@
 	icon_state = "greencarpet";
 	pixel_y = -8
 	},
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
-	},
+/turf/open/misc/grass,
 /area/vtm/interior/evergreen/caern)
 "pLC" = (
 /obj/machinery/light/small/directional/south,
@@ -66060,6 +66091,7 @@
 /area/vtm/interior/clinic)
 "qqh" = (
 /obj/structure/table/wood,
+/obj/structure/sink/basin/directional/south,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/evergreen)
 "qqi" = (
@@ -67349,11 +67381,16 @@
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 8
 	},
-/obj/effect/turf_decal/darkpack/cave/corner{
+/obj/effect/landmark/start/darkpack/forest_wolves/catcher,
+/obj/structure/flora/bush/flowers_br/style_random,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/effect/turf_decal/darkpack/dirt/corner{
 	dir = 8
 	},
-/obj/effect/landmark/start/darkpack/forest_wolves/catcher,
-/turf/open/floor/plating/rough,
+/obj/effect/turf_decal/darkpack/dirt{
+	dir = 5
+	},
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/evergreen/caern)
 "qGM" = (
 /obj/effect/turf_decal/siding/grey{
@@ -67995,10 +68032,9 @@
 /area/vtm/interior/cabdepot)
 "qOE" = (
 /obj/effect/turf_decal/darkpack/cave/corner,
-/obj/structure/glowshroom/single,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone4"
-	},
+/obj/structure/flora/bush/flowers_br/style_random,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/grass,
 /area/vtm/interior/evergreen/caern)
 "qOF" = (
 /obj/machinery/vending/snack{
@@ -68215,7 +68251,7 @@
 	dir = 8
 	},
 /obj/effect/landmark/start/darkpack/forest_wolves/guardian,
-/turf/open/floor/plating/rough/cave,
+/turf/open/misc/grass,
 /area/vtm/interior/evergreen/caern)
 "qRm" = (
 /obj/effect/decal/rugs,
@@ -69664,7 +69700,7 @@
 	pixel_y = 5
 	},
 /obj/structure/stone_tile/surrounding,
-/turf/open/floor/plating/rough,
+/turf/open/misc/dirt,
 /area/vtm/interior/evergreen/caern)
 "rkK" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -69678,9 +69714,7 @@
 "rkM" = (
 /obj/effect/turf_decal/darkpack/cave/corner,
 /obj/structure/flora/rock/darkpack,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone4"
-	},
+/turf/open/misc/dirt,
 /area/vtm/interior/evergreen/caern)
 "rkR" = (
 /obj/structure/table/wood/fancy/black,
@@ -70064,6 +70098,11 @@
 	},
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/anarch)
+"rpw" = (
+/obj/structure/railing/wooden_fence,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/dirt,
+/area/vtm/interior/evergreen/caern)
 "rpx" = (
 /obj/effect/decal/fakelattice{
 	density = 0
@@ -73956,7 +73995,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/laundromat)
 "spO" = (
-/obj/effect/turf_decal/darkpack/cave{
+/obj/effect/turf_decal/darkpack/dirt{
 	dir = 1
 	},
 /turf/open/water,
@@ -75373,6 +75412,13 @@
 	},
 /turf/open/water/acid,
 /area/vtm/interior/endron_facility/plant)
+"sGs" = (
+/obj/structure/bed/dogbed{
+	desc = "A small... 'pet' bed.";
+	name = "human bed"
+	},
+/turf/open/misc/dirt,
+/area/vtm/interior/evergreen/caern)
 "sGt" = (
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/concrete,
@@ -76924,6 +76970,10 @@
 /obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/wood/herring,
 /area/vtm/interior/shop)
+"tby" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/grass,
+/area/vtm/interior/evergreen/caern)
 "tbz" = (
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/structure/railing,
@@ -78175,9 +78225,23 @@
 	},
 /obj/item/ammo_box/darkpack/c44,
 /obj/item/ammo_box/darkpack/c44,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
+/obj/item/veil_contract{
+	pixel_y = 10;
+	pixel_x = 10
 	},
+/obj/item/flashlight/lantern{
+	pixel_x = -10
+	},
+/obj/item/flashlight/lantern{
+	pixel_x = -10
+	},
+/obj/item/flashlight/lantern{
+	pixel_x = -10
+	},
+/obj/item/flashlight/lantern{
+	pixel_x = -10
+	},
+/turf/open/misc/grass,
 /area/vtm/interior/evergreen/caern)
 "tqA" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -79704,10 +79768,8 @@
 	pixel_y = 10
 	},
 /obj/item/ammo_box/darkpack/c12g/buck,
-/obj/item/ammo_box/darkpack/c12g/buck,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
-	},
+/obj/item/ammo_box/darkpack/c12g,
+/turf/open/misc/grass,
 /area/vtm/interior/evergreen/caern)
 "tKq" = (
 /obj/effect/turf_decal/siding/grey,
@@ -80397,8 +80459,9 @@
 /turf/open/misc/grass/nosmooth,
 /area/vtm)
 "tSI" = (
-/obj/structure/flora/rock/pile/darkpack,
-/turf/open/floor/plating/rough/cave,
+/obj/effect/decal/rugs,
+/obj/structure/table,
+/turf/open/floor/plating/rough,
 /area/vtm/interior/evergreen/caern)
 "tSQ" = (
 /obj/effect/turf_decal/siding/wood/dark{
@@ -81931,13 +81994,9 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/culture)
 "ulW" = (
-/obj/effect/turf_decal/darkpack/cave{
-	dir = 10
-	},
 /obj/structure/flora/rock/pile/darkpack,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone4"
-	},
+/obj/structure/railing/wooden_fence,
+/turf/open/misc/dirt,
 /area/vtm/interior/evergreen/caern)
 "ulX" = (
 /obj/effect/turf_decal/bordur{
@@ -82277,6 +82336,7 @@
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 1
 	},
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/dirt,
 /area/vtm/interior/evergreen/caern)
 "urr" = (
@@ -82399,10 +82459,15 @@
 /area/vtm/interior)
 "utD" = (
 /obj/structure/stone_tile/surrounding_tile,
-/obj/effect/turf_decal/darkpack/cave/corner{
+/obj/structure/flora/bush/flowers_br/style_random,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/effect/turf_decal/darkpack/dirt/corner{
 	dir = 4
 	},
-/turf/open/floor/plating/rough,
+/obj/effect/turf_decal/darkpack/dirt{
+	dir = 9
+	},
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/evergreen/caern)
 "utQ" = (
 /obj/effect/turf_decal/siding/wideplating/dark,
@@ -83046,12 +83111,11 @@
 /turf/open/water/vamp_sewer,
 /area/vtm/interior/sewer)
 "uBG" = (
-/obj/effect/decal/wallpaper/stone/low{
-	pixel_y = 24
+/obj/item/flashlight/lantern/on{
+	pixel_x = -7;
+	pixel_y = 7
 	},
-/obj/effect/decal/shadow,
-/obj/item/kirbyplants/darkpack/random,
-/turf/open/floor/plating/rough,
+/turf/open/floor/plating/rough/cave,
 /area/vtm/interior/evergreen/caern)
 "uBN" = (
 /obj/machinery/vending/coffee,
@@ -84937,6 +85001,14 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/littleitaly/apartments)
+"vaJ" = (
+/obj/effect/decal/shadow,
+/obj/effect/decal/wallpaper/stone/low{
+	pixel_y = 24
+	},
+/obj/item/kirbyplants/darkpack/random,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/evergreen/caern)
 "vaN" = (
 /obj/effect/turf_decal/crosswalk{
 	dir = 4
@@ -89705,6 +89777,12 @@
 /obj/structure/roadsign,
 /turf/open/misc/dirt,
 /area/vtm/interior/sewer/nosferatu_warren)
+"wpL" = (
+/obj/item/flashlight/lantern/on{
+	pixel_x = 4
+	},
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/evergreen/caern)
 "wpN" = (
 /obj/structure/hedge,
 /obj/structure/flora/bush/flowers_br/style_random,
@@ -90667,6 +90745,14 @@
 	icon_state = "stone8"
 	},
 /area/vtm/interior/sewer/nosferatu_warren)
+"wAQ" = (
+/obj/effect/turf_decal/darkpack/cave/corner{
+	dir = 4
+	},
+/obj/structure/flora/bush/flowers_br/style_random,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/grass,
+/area/vtm/interior/evergreen/caern)
 "wAZ" = (
 /obj/structure/railing{
 	dir = 4
@@ -91765,6 +91851,13 @@
 /obj/effect/decal/shadow,
 /turf/open/misc/dirt,
 /area/vtm)
+"wOR" = (
+/obj/structure/flora/rock/stalagmite,
+/obj/structure/railing/wooden_fence{
+	dir = 6
+	},
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/evergreen/caern)
 "wPh" = (
 /obj/structure/chair/plastic/darkpack{
 	dir = 8;
@@ -92214,6 +92307,14 @@
 "wUD" = (
 /turf/open/floor/plating/stone,
 /area/vtm)
+"wUS" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/item/flashlight/lantern/on{
+	pixel_x = 7;
+	pixel_y = 3
+	},
+/turf/open/misc/grass,
+/area/vtm/interior/evergreen/caern)
 "wUV" = (
 /obj/machinery/washing_machine,
 /obj/structure/sign/flag/china{
@@ -93718,16 +93819,12 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/police/upstairs)
 "xob" = (
-/obj/effect/turf_decal/darkpack/cave/corner{
-	dir = 4
-	},
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
 	},
 /obj/effect/decal/shadow,
-/turf/open/floor/plating/rough/cave{
-	icon_state = "stone8"
-	},
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/evergreen/caern)
 "xog" = (
 /obj/effect/decal/wallpaper/gold/alt,
@@ -96215,6 +96312,10 @@
 /obj/effect/turf_decal/darkpack/rough/corner{
 	dir = 4
 	},
+/obj/structure/railing/wooden_fence,
+/obj/item/flashlight/lantern/on{
+	pixel_x = 4
+	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/evergreen/caern)
 "xWj" = (
@@ -96280,10 +96381,18 @@
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 6
 	},
-/obj/structure/railing/wooden_fence{
-	dir = 6
+/obj/structure/table/wood{
+	density = 0
 	},
-/obj/structure/flora/rock/stalagmite,
+/obj/structure/fluff/tv{
+	icon_state = "tv_analog";
+	pixel_y = 14;
+	density = 1
+	},
+/obj/effect/decal/wallpaper/stone/low{
+	pixel_y = 24
+	},
+/obj/effect/decal/shadow,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/evergreen/caern)
 "xXa" = (
@@ -122606,7 +122715,7 @@ eAK
 jrT
 odz
 mAe
-cIP
+oAT
 wDm
 wDm
 wDm
@@ -122802,7 +122911,7 @@ wDm
 htG
 cIP
 cIP
-cIP
+lhP
 tpA
 bro
 jrT
@@ -123017,7 +123126,7 @@ cIP
 cIP
 joi
 uWv
-ibI
+qPi
 iEv
 pSC
 wDm
@@ -123220,8 +123329,8 @@ cIP
 cIP
 cIP
 urq
-qPi
-ibI
+wUS
+tby
 xKb
 lue
 wDm
@@ -123418,7 +123527,7 @@ cIP
 cIP
 cIP
 cIP
-cIP
+uBG
 cIP
 cIP
 dSV
@@ -123819,11 +123928,11 @@ uvs
 uvs
 wDm
 aRY
-cIP
+lhP
 cIP
 qID
 wMa
-ibI
+qPi
 qPi
 tAI
 iny
@@ -124027,9 +124136,9 @@ aRY
 opV
 cOq
 pMD
+sGs
 qPi
-ibI
-ibI
+qPi
 tbK
 cIP
 wDm
@@ -124638,7 +124747,7 @@ geB
 cRc
 cRc
 fqk
-mAe
+ppn
 wDm
 wDm
 tCW
@@ -124839,24 +124948,24 @@ wDm
 iJN
 sIs
 gvg
-gvg
-ouW
-dKw
-cIP
-dSV
+fjU
+wAQ
+msc
+fjU
+fjU
 wDm
 wDm
 jdn
-cIP
+wpL
 cIP
 cIP
 psV
-tSI
 mAe
-wDm
-wDm
-wDm
-wDm
+cIP
+wOR
+vaJ
+ktG
+jMC
 wDm
 tOE
 kQj
@@ -125043,12 +125152,12 @@ cXc
 qGE
 kpx
 jwC
-gvg
+fjU
 jzc
 mLF
-cIP
-cIP
-cIP
+fjU
+fjU
+rpw
 bSE
 uRn
 cIP
@@ -125058,9 +125167,9 @@ tVF
 cIP
 xWi
 xWY
-uBG
-ktG
-jMC
+tGB
+tGB
+dtH
 wDm
 tOE
 wpP
@@ -125248,11 +125357,11 @@ dyp
 eVA
 xob
 pLy
-dKw
+piO
 lph
-cIP
-cIP
-cIP
+tby
+fjU
+qPi
 bHg
 fXk
 eLe
@@ -125264,7 +125373,7 @@ bRD
 mYc
 tGB
 tGB
-dtH
+deG
 wDm
 wlL
 wlL
@@ -125450,13 +125559,13 @@ wDm
 erF
 utD
 hyA
+jwC
 fjU
-cIP
-cIP
+fjU
 ifa
-cIP
-cIP
-sxK
+fjU
+fjU
+qPi
 ulW
 spO
 wBm
@@ -125468,9 +125577,9 @@ kUS
 sIs
 tGB
 ykz
-ljn
+tGB
 wqx
-uvs
+wDm
 uvs
 uvs
 uvs
@@ -125654,18 +125763,18 @@ wDm
 wDm
 pmG
 sIs
-cIP
-cIP
-cIP
-cIP
-sxK
+gvg
+fjU
+fjU
+afc
+kFA
 nBg
 rkM
 wDm
 xOn
 xwK
 hto
-cIP
+oAT
 llX
 aVz
 bTd
@@ -125673,8 +125782,8 @@ gjE
 nYd
 tGB
 ykz
+ljn
 wDm
-uvs
 uvs
 uvs
 uvs
@@ -125863,7 +125972,7 @@ qRj
 fzS
 ppn
 qOE
-oAT
+fqk
 wDm
 wDm
 wDm
@@ -125876,9 +125985,9 @@ vuo
 wQa
 kZz
 rob
+tSI
+bUC
 wDm
-wDm
-uvs
 uvs
 uvs
 uvs
@@ -126081,8 +126190,8 @@ wDm
 wDm
 wDm
 wDm
-uvs
-uvs
+wDm
+wDm
 uvs
 uvs
 uvs
