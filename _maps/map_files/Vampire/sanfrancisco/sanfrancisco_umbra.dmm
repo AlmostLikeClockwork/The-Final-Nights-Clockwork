@@ -2853,6 +2853,7 @@
 /area/vtm/outside/penumbra)
 "JC" = (
 /obj/structure/platform/lowwall/rich,
+/turf/open/floor/wood/smooth,
 /area/vtm/outside/penumbra)
 "JL" = (
 /obj/effect/turf_decal/siding/white{
