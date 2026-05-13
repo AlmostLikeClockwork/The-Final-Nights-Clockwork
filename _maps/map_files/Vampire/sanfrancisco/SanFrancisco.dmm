@@ -4574,6 +4574,7 @@
 	pixel_y = 32
 	},
 /obj/machinery/light/small/red/directional/north,
+/obj/effect/landmark/event_spawn/szlachta,
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
 "bhM" = (
@@ -10604,6 +10605,13 @@
 /obj/machinery/light/directional/north,
 /turf/open/openspace,
 /area/vtm/interior/millennium_tower/f2)
+"cFq" = (
+/obj/structure/vampipe{
+	icon_state = "piping35"
+	},
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer)
 "cFt" = (
 /obj/machinery/light/red/directional/north,
 /obj/structure/lattice/catwalk,
@@ -21259,6 +21267,13 @@
 	},
 /turf/open/floor/plating/roofwalk,
 /area/vtm)
+"fnX" = (
+/obj/structure/vampipe{
+	icon_state = "piping32"
+	},
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/sewer)
 "foi" = (
 /obj/structure/flora/rock/darkpack_big,
 /turf/open/misc/grass/nosmooth,
@@ -36456,6 +36471,13 @@
 /obj/structure/flora/tree/vamp,
 /turf/open/misc/grass/nosmooth,
 /area/vtm/outside/baywalk)
+"jfm" = (
+/obj/structure/vampipe{
+	pixel_y = 32
+	},
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/sewer)
 "jfo" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/darkpack/old,
@@ -42961,6 +42983,10 @@
 /obj/structure/kitchenspike,
 /turf/open/floor/wood/rough,
 /area/vtm/interior/laundromat)
+"kMb" = (
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer)
 "kMi" = (
 /obj/machinery/light/directional/east,
 /obj/structure/bookcase/random/nonfiction,
@@ -47014,6 +47040,14 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church)
+"lLT" = (
+/obj/structure/vampipe{
+	icon_state = "piping9";
+	pixel_y = 32
+	},
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/sewer)
 "lLU" = (
 /obj/effect/decal/wallpaper/grey,
 /turf/closed/wall/vampwall/bar,
@@ -78840,6 +78874,10 @@
 	},
 /turf/open/floor/wood/old,
 /area/vtm/outside/fishermanswharf/industrial)
+"tBD" = (
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/sewer)
 "tBI" = (
 /mob/living/basic/frog{
 	name = "Freddo"
@@ -93471,6 +93509,13 @@
 /obj/structure/platform/lowwall/painted/window,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
+"xkp" = (
+/obj/structure/vampipe{
+	icon_state = "piping35"
+	},
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/sewer)
 "xks" = (
 /obj/structure/altar,
 /turf/open/misc/dirt,
@@ -103363,7 +103408,7 @@ xyw
 uvs
 xyw
 xyw
-cBs
+kMb
 kOa
 bEG
 hge
@@ -106145,7 +106190,7 @@ uvs
 uvs
 uvs
 tuX
-aej
+jfm
 vFf
 kRM
 tuX
@@ -108287,7 +108332,7 @@ tuX
 tuX
 tuX
 tuX
-aej
+jfm
 vFf
 kRM
 tuX
@@ -112728,7 +112773,7 @@ hge
 hge
 hge
 hge
-hge
+tBD
 hge
 hge
 hge
@@ -112998,7 +113043,7 @@ bmy
 bmy
 bmy
 bmy
-bmy
+cFq
 sBB
 vFf
 goF
@@ -115433,7 +115478,7 @@ gpd
 gpd
 gpd
 gpd
-gpd
+xkp
 gpd
 gpd
 gpd
@@ -126543,7 +126588,7 @@ hge
 hge
 hge
 hge
-hge
+tBD
 hge
 hge
 hge
@@ -134176,7 +134221,7 @@ gxA
 gVZ
 seh
 seh
-seh
+fnX
 seh
 seh
 seh
@@ -134633,7 +134678,7 @@ uvs
 uvs
 uvs
 tuX
-kdD
+lLT
 vFf
 kRM
 tuX
