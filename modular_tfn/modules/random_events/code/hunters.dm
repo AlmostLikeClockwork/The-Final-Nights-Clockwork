@@ -193,7 +193,7 @@ once the player is either dead or staked, the hunter will guard their 'kill' for
 		var/scan_chance = base_chance
 		if(HAS_TRAIT(nearby, TRAIT_BLUSH_OF_HEALTH))
 			scan_chance -= scan_penalty_blush
-		if(HAS_TRAIT(nearby, TRAIT_PERMAFANGS) && !is_mouth_covered)
+		if(HAS_TRAIT(nearby, TRAIT_PERMAFANGS) && !is_mouth_covered(nearby))
 			scan_chance += scan_bonus_permanent_fangs
 		var/datum/st_stat/morality_path/morality/path = nearby.storyteller_stats?[STAT_MORALITY]
 		if(path?.morality_path?.alignment == MORALITY_HUMANITY)
