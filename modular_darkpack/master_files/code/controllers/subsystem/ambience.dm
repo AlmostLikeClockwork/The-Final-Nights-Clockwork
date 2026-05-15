@@ -17,4 +17,12 @@
 	if(!client)
 		return
 	animate(A, alpha = 0, time = 1 SECONDS, easing = EASE_OUT)
-	addtimer(CALLBACK(GLOBAL_PROC, /proc/qdel, A), 2 SECONDS)
+	addtimer(CALLBACK(src, PROC_REF(remove_area_text), A), 2 SECONDS) // TFN EDIT CHANGE - Original: addtimer(CALLBACK(GLOBAL_PROC, /proc/qdel, A), 2 SECONDS)
+
+// TFN EDIT ADD - fixing harddels on area text
+/mob/living/proc/remove_area_text(atom/movable/screen/A)
+	if(!A || QDELETED(A))
+		return
+	client?.screen -= A
+	qdel(A)
+// TFN EDIT ADD END
