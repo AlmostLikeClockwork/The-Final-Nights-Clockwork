@@ -12,7 +12,7 @@
 
 // this shouldnt be here since its not an override or a subtype of a /tg/ proc (like above) but since it's called right there i figured i'd keep things together.
 /mob/living/proc/clear_area_text(atom/movable/screen/A)
-	if(!A)
+	if(!A || QDELETED(A)) // TFN EDIT CHANGE - Original: if(!A)
 		return
 	if(!client)
 		return
