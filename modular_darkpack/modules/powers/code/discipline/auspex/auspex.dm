@@ -353,9 +353,9 @@ character with the most successes wins
 
 	level = 4
 	check_flags = DISC_CHECK_CONSCIOUS
-	target_type = TARGET_LIVING
+	target_type = TARGET_PLAYER
 	vitae_cost = 0
-	cooldown_length = 1 TURNS
+	cooldown_length = 3 SCENES
 	range = 7
 	var/telepathy_types = list(TELEPATHY_MIND_READING, TELEPATHY_IMPLANT_THOUGHT)
 	var/telepathy_type_selected
@@ -407,7 +407,9 @@ character with the most successes wins
 						disguised_voice = owner.real_name
 		telepathy_type_selected = telepathy_type
 		return TRUE
-	return FALSE
+	else
+		do_cooldown()
+		return FALSE
 
 
 /datum/discipline_power/auspex/telepathy/activate(mob/living/target)
@@ -438,6 +440,7 @@ character with the most successes wins
 			var/prompt_message = flavor_text_telepathy
 			if(specific_search)
 				prompt_message += "The telepath specifically scans your mind for : [specific_search]"
+				message_admins("[owner.real_name] (ckey: [owner.key]) uses Auspex 4 'Telepathy' to read the mind of [target.real_name] (ckey: [target.key]) searching for '[specific_search]' with [successes] successes.")
 			else
 				prompt_message += "The telepath searches your recent thoughts and emotions..."
 
@@ -449,6 +452,7 @@ character with the most successes wins
 				return
 
 			log_directed_talk(target, owner, input_message, LOG_SAY, "Telepathy (Mind Reading)")
+			message_admins("[target.real_name]'s (ckey: [target.key]) mind is read by [owner.real_name] (ckey: [owner.key]) who searched their mind for '[specific_search ? specific_search : "recent thoughts and emotions"]'. The owner intercepted the following thoughts or memories : [input_message]")
 			to_chat(owner, span_notice("You read [GET_GUESTBOOK_NAME(owner, target)]'s thoughts with [successes] successes: [input_message]"))
 
 /datum/discipline_power/auspex/telepathy/proc/get_flavor_text(successes)
