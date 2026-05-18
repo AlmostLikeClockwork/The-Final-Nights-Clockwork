@@ -87163,6 +87163,14 @@
 /obj/effect/landmark/start/darkpack/society_of_leopold/inquisitor,
 /turf/open/misc/dirt,
 /area/vtm/interior/sewer)
+"vHh" = (
+/obj/structure/vampdoor/reinf{
+	dir = 4
+	},
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
+	},
+/area/vtm/interior/subway)
 "vHk" = (
 /obj/structure/barrels{
 	icon_state = "barrels3";
@@ -134914,7 +134922,7 @@ tuX
 tuX
 tuX
 tuX
-tuX
+hge
 tuX
 tuX
 tuX
@@ -135117,9 +135125,9 @@ uvs
 uvs
 uvs
 uvs
-uvs
-uvs
-uvs
+tuX
+hge
+tuX
 uvs
 uvs
 uvs
@@ -135321,9 +135329,9 @@ uvs
 uvs
 uvs
 uvs
-uvs
-uvs
-uvs
+tuX
+hge
+tuX
 uvs
 uvs
 uvs
@@ -135526,7 +135534,7 @@ iQY
 iQY
 iQY
 iQY
-iQY
+vHh
 iQY
 iQY
 iQY
