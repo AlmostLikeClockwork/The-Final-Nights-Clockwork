@@ -2681,13 +2681,6 @@
 	},
 /turf/open/floor/plating/roofwalk,
 /area/vtm)
-"aIP" = (
-/obj/structure/vampipe{
-	icon_state = "piping36";
-	pixel_y = 32
-	},
-/turf/open/floor/plating/canal,
-/area/vtm/interior/sewer)
 "aIS" = (
 /obj/structure/bookcase/random/religion,
 /obj/machinery/light/dim/directional/north,
@@ -6393,6 +6386,11 @@
 /obj/machinery/light/cold/directional/north,
 /turf/open/floor/city/circled,
 /area/vtm/interior/shop)
+"bFy" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/clothing/under/vampire/mechanic,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer)
 "bFz" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -35530,12 +35528,6 @@
 /obj/item/clothing/suit/toggle/labcoat/paramedic,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/clinic)
-"iQy" = (
-/obj/structure/vampdoor/prison{
-	dir = 4
-	},
-/turf/open/floor/plating/canal,
-/area/vtm/interior/sewer)
 "iQB" = (
 /obj/effect/turf_decal/darkpack/grass/corner{
 	dir = 8
@@ -36856,6 +36848,18 @@
 	},
 /turf/open/water/beach/vamp/deep,
 /area/vtm/outside/northbeach)
+"jhD" = (
+/obj/structure/chair/plastic/darkpack,
+/obj/item/clothing/head/vampire/hardhat{
+	pixel_x = -8;
+	pixel_y = -25
+	},
+/obj/item/reagent_containers/cup/glass/bottle/beer/vampire/blue_stripe{
+	pixel_x = 12;
+	pixel_y = -9
+	},
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer)
 "jhI" = (
 /obj/effect/decal/wallpaper/paper/darkgreen,
 /turf/closed/wall/vampwall/brick,
@@ -40616,6 +40620,15 @@
 	},
 /turf/open/floor/carpet/red,
 /area/vtm/interior/littleitaly/apartments)
+"keI" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/weldingtool/empty{
+	pixel_y = 12;
+	pixel_x = 8
+	},
+/obj/item/clothing/head/utility/welding,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer)
 "keR" = (
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/unionsquare)
@@ -42802,6 +42815,10 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop)
+"kHQ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer)
 "kHR" = (
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/wood/smooth/old,
@@ -72662,6 +72679,10 @@
 /obj/effect/landmark/npcbeacon,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/financialdistrict)
+"rWW" = (
+/obj/item/melee/vamp/brick,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer)
 "rWY" = (
 /obj/structure/lattice/grate,
 /obj/structure/railing{
@@ -76595,6 +76616,15 @@
 /obj/structure/railing/wooden_fence,
 /turf/open/water/vamp_sewer,
 /area/vtm/interior/sewer/nosferatu_warren)
+"sWu" = (
+/obj/effect/turf_decal/siding/grey{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
+	},
+/area/vtm/interior/subway)
 "sWv" = (
 /obj/effect/turf_decal/siding/wideplating/blue,
 /obj/machinery/sprinkler/area_managed,
@@ -87170,8 +87200,15 @@
 /turf/open/misc/dirt,
 /area/vtm/interior/sewer)
 "vHh" = (
-/obj/structure/vampdoor/reinf{
-	dir = 4
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 8
+	},
+/obj/item/melee/vamp/brick{
+	pixel_y = 5;
+	pixel_x = 10
+	},
+/obj/effect/decal/fakelattice{
+	density = 0
 	},
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
@@ -93318,6 +93355,13 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/endron_facility/plant)
+"xgH" = (
+/obj/structure/bricks,
+/obj/effect/decal/cleanable/cobweb/cobweb2{
+	pixel_y = 24
+	},
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer)
 "xgM" = (
 /obj/structure/bed,
 /obj/effect/decal/rugs,
@@ -96133,6 +96177,18 @@
 /obj/structure/table/wood/poker,
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/setite)
+"xTB" = (
+/obj/effect/turf_decal/siding/grey{
+	dir = 4
+	},
+/obj/item/clothing/suit/caution{
+	pixel_x = -9
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
+	},
+/area/vtm/interior/subway)
 "xTH" = (
 /obj/effect/decal/painting/third{
 	pixel_y = 32
@@ -134517,14 +134573,14 @@ qaV
 fZF
 fZF
 fZF
+qaV
 fZF
 fZF
 fZF
 fZF
 fZF
 fZF
-fZF
-fZF
+qaV
 fZF
 fZF
 fZF
@@ -134720,16 +134776,16 @@ gpd
 gpd
 gpd
 gpd
-gpd
-gpd
-gpd
-gpd
-gpd
-gpd
-gpd
+sUt
 hge
-aIP
-kGC
+vFf
+fZF
+fZF
+fZF
+fZF
+fZF
+skK
+gpd
 gpd
 gpd
 sUt
@@ -134926,12 +134982,12 @@ tuX
 tuX
 tuX
 tuX
-tuX
-tuX
-iQy
-tuX
-tuX
-tuX
+kHQ
+vFf
+fZF
+fZF
+fZF
+fZF
 tuX
 tuX
 tuX
@@ -135129,14 +135185,14 @@ uvs
 uvs
 uvs
 uvs
-uvs
-uvs
-tuX
-hge
-tuX
-uvs
-uvs
-uvs
+xyw
+jhD
+cBs
+vFf
+kHQ
+bFy
+xyw
+xyw
 uvs
 uvs
 uvs
@@ -135333,13 +135389,13 @@ uvs
 uvs
 uvs
 uvs
-uvs
-uvs
-tuX
-hge
-tuX
-uvs
-uvs
+xyw
+xgH
+cBs
+keI
+rWW
+xyw
+xyw
 uvs
 uvs
 uvs
@@ -135743,10 +135799,10 @@ riO
 riO
 riO
 riO
+sWu
+xTB
 riO
-riO
-riO
-riO
+sWu
 riO
 cWq
 iQY
