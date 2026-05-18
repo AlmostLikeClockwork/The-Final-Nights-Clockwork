@@ -35530,6 +35530,12 @@
 /obj/item/clothing/suit/toggle/labcoat/paramedic,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/clinic)
+"iQy" = (
+/obj/structure/vampdoor/prison{
+	dir = 4
+	},
+/turf/open/floor/plating/canal,
+/area/vtm/interior/sewer)
 "iQB" = (
 /obj/effect/turf_decal/darkpack/grass/corner{
 	dir = 8
@@ -134922,7 +134928,7 @@ tuX
 tuX
 tuX
 tuX
-hge
+iQy
 tuX
 tuX
 tuX
