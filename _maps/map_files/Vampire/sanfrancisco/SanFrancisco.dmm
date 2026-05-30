@@ -20073,16 +20073,6 @@
 /turf/open/misc/dirt,
 /area/vtm/interior/evergreen/caern)
 "eYW" = (
-/obj/structure/vampipe{
-	icon_state = "piping25";
-	pixel_y = 32
-	},
-/obj/machinery/light/small/red/directional/north,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /obj/effect/landmark/event_spawn/szlachta,
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
@@ -24658,9 +24648,6 @@
 	},
 /turf/open/floor/carpet/darkpack/blacksilver,
 /area/vtm/interior/mall)
-"gdr" = (
-/turf/closed/wall/vampwall/brick_old,
-/area/vtm/interior/magadon_facility/restricted)
 "gdv" = (
 /obj/effect/landmark/start/darkpack/citizen/club_worker,
 /turf/open/floor/city/plating_mono,
@@ -60929,18 +60916,6 @@
 	},
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/financialdistrict)
-"oXB" = (
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/vampipe{
-	icon_state = "piping35"
-	},
-/obj/effect/decal/cleanable/trash,
-/turf/open/floor/plating/canal,
-/area/vtm/interior/sewer)
 "oXQ" = (
 /obj/structure/flora/bush/sparsegrass/style_random{
 	pixel_y = 4
@@ -134188,7 +134163,7 @@ tuX
 tuX
 tuX
 tuX
-gdr
+tuX
 hcY
 qps
 iMp
@@ -134392,7 +134367,7 @@ iSC
 tHb
 kOa
 dRe
-gdr
+tuX
 jFo
 jFo
 jFo
@@ -135410,7 +135385,7 @@ gpd
 sUt
 hge
 hge
-oXB
+guE
 hge
 skK
 gpd
