@@ -4761,6 +4761,9 @@
 /obj/structure/vampdoor/reinf,
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/turf_decal/siding/grey{
+	dir = 1
+	},
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
@@ -16701,10 +16704,6 @@
 /obj/machinery/light/small/red/directional/north,
 /turf/open/floor/city/industrial,
 /area/vtm/interior/nosferatu_office)
-"efk" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/closed/wall/vampwall/brick_old,
-/area/vtm/interior/sewer)
 "efs" = (
 /obj/machinery/bookbinder,
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -19592,6 +19591,13 @@
 	},
 /turf/closed/wall/vampwall/metal/glass,
 /area/vtm/interior/endron_facility/restricted)
+"eSs" = (
+/obj/effect/decal/cleanable/litter,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
+	},
+/area/vtm/interior/sewer)
 "eSB" = (
 /obj/effect/decal/wallpaper/red/low,
 /turf/closed/wall/vampwall/brick_old,
@@ -22559,7 +22565,6 @@
 "fCv" = (
 /obj/effect/decal/pallet,
 /obj/item/reagent_containers/cup/glass/bottle/beer/vampire,
-/obj/effect/spawner/random/occult/artifact,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/misc/dirt,
 /area/vtm/interior/sewer)
@@ -36006,6 +36011,9 @@
 /obj/structure/vampdoor/reinf,
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/turf_decal/siding/grey{
+	dir = 1
+	},
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/subway)
 "iWH" = (
@@ -38096,6 +38104,12 @@
 	},
 /turf/open/floor/wood/herring,
 /area/vtm/outside/giovanni/courtyard)
+"jvz" = (
+/obj/effect/decal/cleanable/trash{
+	icon_state = "trash5"
+	},
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer)
 "jvE" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 4
@@ -43728,9 +43742,8 @@
 /area/vtm/interior/library)
 "kSQ" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/blood{
-	icon_state = "splatter2-old"
-	},
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/spawner/random/occult/artifact,
 /turf/open/misc/dirt,
 /area/vtm/interior/sewer)
 "kSX" = (
@@ -55662,7 +55675,6 @@
 /area/vtm)
 "nOh" = (
 /obj/machinery/light/cold/directional/north,
-/obj/machinery/vending/snack/blue,
 /turf/open/floor/plating/concrete{
 	color = "#bfbfbf"
 	},
@@ -97095,6 +97107,13 @@
 /obj/effect/turf_decal/siding/grey,
 /turf/open/floor/city/factory,
 /area/vtm/interior/church/staff)
+"ydY" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/trash{
+	icon_state = "trash5"
+	},
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sewer)
 "yec" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/siding/wood/light{
@@ -97189,6 +97208,12 @@
 	},
 /turf/open/floor/wood/herring,
 /area/vtm/interior/sewer/nosferatu_warren)
+"yfx" = (
+/obj/machinery/vending/snack/blue,
+/turf/open/floor/plating/concrete{
+	color = "#bfbfbf"
+	},
+/area/vtm/interior/subway)
 "yfB" = (
 /obj/structure/table,
 /obj/structure/fluff/tv{
@@ -134893,12 +134918,12 @@ gpd
 gpd
 gpd
 gpd
-gpd
-gpd
+sUt
 hge
 hge
 hge
-gpd
+hge
+skK
 gpd
 gpd
 gpd
@@ -135099,9 +135124,9 @@ tuX
 tuX
 tuX
 tuX
-efk
+mMQ
 wkC
-tuX
+ydY
 tuX
 tuX
 tuX
@@ -135302,11 +135327,11 @@ uvs
 uvs
 uvs
 uvs
-uvs
 xyw
+jvz
 kHQ
+mMQ
 xyw
-uvs
 uvs
 uvs
 uvs
@@ -135506,11 +135531,11 @@ uvs
 uvs
 uvs
 uvs
-uvs
+xyw
 wTG
 kHQ
 njO
-uvs
+xyw
 uvs
 uvs
 uvs
@@ -135710,7 +135735,7 @@ uvs
 uvs
 uvs
 uvs
-uvs
+xyw
 tEG
 kHQ
 usU
@@ -135914,7 +135939,7 @@ uvs
 uvs
 uvs
 uvs
-uvs
+xyw
 tjr
 cBs
 qpJ
@@ -136118,7 +136143,7 @@ uvs
 uvs
 uvs
 uvs
-uvs
+xyw
 xTB
 iky
 iky
@@ -136322,10 +136347,10 @@ uvs
 uvs
 uvs
 uvs
-uvs
+xyw
 jhD
 iky
-ajD
+eSs
 iQY
 cWq
 rbL
@@ -136524,11 +136549,11 @@ uvs
 uvs
 uvs
 uvs
-uvs
-uvs
-uvs
+xyw
+xyw
+xyw
 eKG
-iky
+xTB
 iky
 iQY
 iQY
@@ -136727,9 +136752,9 @@ uvs
 uvs
 uvs
 uvs
-uvs
-uvs
-mMQ
+xyw
+xyw
+rLP
 mMQ
 iZj
 iky
@@ -136931,10 +136956,10 @@ uvs
 uvs
 uvs
 uvs
-uvs
+xyw
 qXs
 fLF
-uvs
+xyw
 bkw
 iky
 iky
@@ -137135,10 +137160,10 @@ uvs
 uvs
 uvs
 uvs
-uvs
+xyw
 kSQ
-uvs
-uvs
+xyw
+xyw
 fCv
 fkh
 mbb
@@ -137147,7 +137172,7 @@ fgf
 iQY
 nOh
 fZR
-jbi
+fZR
 iQY
 hOt
 feP
@@ -137339,19 +137364,19 @@ uvs
 uvs
 uvs
 uvs
-uvs
-uvs
-uvs
-uvs
+xyw
+xyw
+xyw
+xyw
 xyw
 xyw
 xyw
 xyw
 xyw
 iQY
-iQY
-iQY
-iQY
+yfx
+fZR
+jbi
 iQY
 kgi
 feP
