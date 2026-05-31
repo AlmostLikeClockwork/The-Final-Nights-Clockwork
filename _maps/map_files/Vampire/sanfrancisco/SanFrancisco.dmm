@@ -13065,6 +13065,7 @@
 /area/vtm/interior/sabbat_lair)
 "dmq" = (
 /obj/item/stack/dollar/five,
+/obj/effect/landmark/event_spawn/szlachta,
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sewer)
 "dmr" = (
@@ -21352,6 +21353,12 @@
 "fnI" = (
 /turf/open/misc/grass/nosmooth,
 /area/vtm/outside/giovanni/courtyard)
+"fnK" = (
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/floor/plating/rough/cave{
+	icon_state = "stone8"
+	},
+/area/vtm/interior/sewer)
 "fnL" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 8
@@ -27617,6 +27624,13 @@
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/library)
+"gSb" = (
+/obj/structure/vampipe{
+	icon_state = "piping43"
+	},
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/sewer)
 "gSc" = (
 /obj/machinery/oven/range,
 /obj/effect/turf_decal/siding/grey{
@@ -37121,6 +37135,17 @@
 /obj/structure/platform/lowwall/market/window,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/magadon_facility)
+"jjF" = (
+/obj/structure/lattice/grate,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/water/vamp_sewer/border,
+/area/vtm/interior/sewer)
 "jjJ" = (
 /obj/machinery/sprinkler/area_managed,
 /turf/open/floor/plating/concrete,
@@ -39987,6 +40012,11 @@
 	},
 /turf/open/floor/wood/old,
 /area/vtm/outside/fishermanswharf/industrial)
+"jVu" = (
+/obj/item/reagent_containers/cup/glass/bottle/beer/vampire,
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/sewer)
 "jVv" = (
 /obj/structure/chair/sofa/corner/brown{
 	color = "#525252";
@@ -49233,6 +49263,13 @@
 /obj/structure/stairs/north,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/ghetto)
+"mjz" = (
+/obj/effect/decal/cleanable/blood{
+	icon_state = "trails_1-old"
+	},
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/floor/city/circled,
+/area/vtm/interior/sewer/police)
 "mjC" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -68516,6 +68553,10 @@
 	},
 /turf/open/floor/plating/roofwalk,
 /area/vtm)
+"qOS" = (
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer)
 "qOU" = (
 /obj/structure/chair/wood/darkpack,
 /obj/effect/decal/cleanable/crayon{
@@ -73482,6 +73523,13 @@
 	},
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/jazzclub)
+"sdA" = (
+/obj/structure/vampipe{
+	icon_state = "piping40"
+	},
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/sewer)
 "sdE" = (
 /obj/structure/chair/comfy/darkpack{
 	dir = 4
@@ -78015,6 +78063,17 @@
 /obj/structure/rack/clothing/rand,
 /turf/open/floor/wood/herring,
 /area/vtm/interior/shop)
+"tjD" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing,
+/obj/structure/lattice/grate{
+	dir = 4
+	},
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/water/vamp_sewer,
+/area/vtm/interior/sewer)
 "tjE" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -96166,6 +96225,10 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
+"xKA" = (
+/obj/effect/landmark/event_spawn/szlachta,
+/turf/open/floor/plating/stone,
+/area/vtm/interior/sewer)
 "xKB" = (
 /obj/effect/decal/cleanable/cardboard,
 /turf/open/misc/grass,
@@ -104390,7 +104453,7 @@ xyw
 xyw
 dJe
 cBs
-rqY
+fnK
 kOa
 hge
 vFf
@@ -108678,7 +108741,7 @@ uvs
 tuX
 aej
 vFf
-skK
+gSb
 dbZ
 gpd
 gpd
@@ -110879,7 +110942,7 @@ tuX
 kOa
 yfR
 kPk
-woz
+jjF
 kPk
 iep
 kOa
@@ -112987,7 +113050,7 @@ vFf
 fZF
 fZF
 fZF
-hge
+eYW
 hge
 hge
 hge
@@ -113081,7 +113144,7 @@ fZF
 fZF
 giN
 fZF
-eoo
+tjD
 fZF
 fZF
 xsl
@@ -115660,7 +115723,7 @@ fZF
 cBs
 eyn
 lyR
-brg
+xKA
 mHm
 dzB
 xyw
@@ -117432,7 +117495,7 @@ wih
 qtd
 cRz
 caF
-mjk
+mjz
 xTf
 mjk
 mjk
@@ -125935,7 +125998,7 @@ uvs
 uvs
 tuX
 eYt
-kOa
+qOS
 kOa
 ePc
 vFf
@@ -129436,7 +129499,7 @@ bRH
 wOF
 fWa
 kOa
-kOa
+qOS
 kOa
 pmY
 cRa
@@ -133301,7 +133364,7 @@ hge
 tuX
 qlP
 oOl
-kpX
+jVu
 iHa
 qlP
 tuX
@@ -134994,7 +135057,7 @@ hge
 hge
 hge
 vFf
-gxA
+sdA
 gVZ
 seh
 seh
@@ -135837,7 +135900,7 @@ lVv
 hge
 vFf
 hge
-kOa
+qOS
 kOa
 qLp
 tuX
