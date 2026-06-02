@@ -4029,6 +4029,16 @@
 /obj/effect/turf_decal/siding/wood/dark,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/magadon_facility)
+"bbg" = (
+/obj/structure/vampipe{
+	icon_state = "piping31"
+	},
+/obj/structure/vampipe{
+	pixel_y = 32
+	},
+/obj/effect/landmark/event_spawn/sarcophagus,
+/turf/open/water/vamp_sewer/border,
+/area/vtm/interior/sewer)
 "bbh" = (
 /obj/structure/chair/comfy/darkpack/dark{
 	dir = 1
@@ -13197,6 +13207,10 @@
 /obj/effect/mapping_helpers/door/access/pentex,
 /turf/open/floor/city/plating,
 /area/vtm/interior/magadon_facility)
+"doE" = (
+/obj/effect/landmark/event_spawn/sarcophagus,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/sewer)
 "doF" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 4
@@ -14155,6 +14169,13 @@
 /obj/effect/landmark/npcactivity,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/financialdistrict)
+"dAS" = (
+/obj/structure/vampipe{
+	icon_state = "piping35"
+	},
+/obj/effect/landmark/event_spawn/sarcophagus,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/sewer)
 "dAT" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -14192,6 +14213,13 @@
 /obj/machinery/sprinkler/area_managed,
 /turf/open/floor/city/toilet,
 /area/vtm/interior/library)
+"dBt" = (
+/obj/structure/vampipe{
+	icon_state = "piping35"
+	},
+/obj/effect/landmark/event_spawn/sarcophagus,
+/turf/open/floor/plating/canalplating,
+/area/vtm/interior/sewer)
 "dBw" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -31678,6 +31706,7 @@
 /area/vtm/outside/financialdistrict)
 "hUx" = (
 /obj/item/shovel/vamp,
+/obj/effect/landmark/event_spawn/sarcophagus,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
 "hUz" = (
@@ -63393,6 +63422,13 @@
 	},
 /turf/open/floor/carpet/black,
 /area/vtm/interior/strip)
+"pFo" = (
+/obj/structure/vampipe{
+	pixel_y = 32
+	},
+/obj/effect/landmark/event_spawn/sarcophagus,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/sewer)
 "pFK" = (
 /obj/effect/turf_decal/asphaltline/alt{
 	pixel_x = -14
@@ -78794,6 +78830,10 @@
 	color = "#9c8064"
 	},
 /area/vtm/interior/ghetto)
+"tuH" = (
+/obj/effect/landmark/event_spawn/sarcophagus,
+/turf/open/misc/dirt,
+/area/vtm/interior/sewer)
 "tuI" = (
 /obj/machinery/light/directional/north,
 /turf/open/openspace,
@@ -82968,6 +83008,10 @@
 /obj/structure/sign/painting/library,
 /turf/closed/wall/vampwall/junk/alt,
 /area/vtm/interior/nosferatu_office)
+"uxz" = (
+/obj/effect/landmark/event_spawn/sarcophagus,
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm)
 "uxI" = (
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /obj/effect/turf_decal/siding/white,
@@ -89936,6 +89980,10 @@
 	},
 /turf/open/floor/city/circled,
 /area/vtm/interior/shop)
+"wov" = (
+/obj/effect/landmark/event_spawn/sarcophagus,
+/turf/open/floor/plating/roofwalk,
+/area/vtm)
 "wow" = (
 /obj/item/kirbyplants/darkpack/random,
 /obj/effect/turf_decal/siding/white/corner{
@@ -93432,6 +93480,10 @@
 	},
 /obj/machinery/light/small/red/directional/east,
 /turf/open/floor/plating/canal,
+/area/vtm/interior/sewer)
+"xcS" = (
+/obj/effect/landmark/event_spawn/sarcophagus,
+/turf/open/water/vamp_sewer,
 /area/vtm/interior/sewer)
 "xcU" = (
 /obj/structure/closet/crate/large,
@@ -97044,6 +97096,7 @@
 /obj/structure/vampipe{
 	icon_state = "piping31"
 	},
+/obj/effect/landmark/event_spawn/sarcophagus,
 /turf/open/floor/plating/rough/cave{
 	icon_state = "stone8"
 	},
@@ -104938,7 +104991,7 @@ uvs
 uvs
 uvs
 tuX
-aej
+pFo
 vFf
 kRM
 tuX
@@ -111594,7 +111647,7 @@ uvs
 uvs
 xyw
 cOA
-rLP
+tuH
 rLP
 cBs
 bEG
@@ -113292,7 +113345,7 @@ uvs
 uvs
 tuX
 ueY
-fZF
+xcS
 fZF
 fZF
 lCp
@@ -113413,7 +113466,7 @@ hge
 hge
 hge
 hge
-hge
+doE
 hge
 hge
 hge
@@ -126617,7 +126670,7 @@ qgL
 gpd
 gpd
 gpd
-gpd
+dAS
 gpd
 gpd
 sUt
@@ -128000,7 +128053,7 @@ bmy
 bmy
 bmy
 bmy
-bmy
+dBt
 gIe
 hge
 lup
@@ -128115,7 +128168,7 @@ bmy
 bmy
 bmy
 bmy
-bmy
+dBt
 bmy
 bmy
 bmy
@@ -135255,7 +135308,7 @@ tuX
 tuX
 uvs
 tuX
-kZU
+bbg
 tuX
 uvs
 uvs
@@ -235006,7 +235059,7 @@ xEp
 wmS
 tYF
 ssj
-ssj
+uxz
 ssj
 ssj
 ssj
@@ -246512,7 +246565,7 @@ xEp
 xEp
 xEp
 xEp
-xEp
+wov
 xEp
 xEp
 xEp
@@ -253692,7 +253745,7 @@ xuz
 wmS
 dnP
 ssj
-ssj
+uxz
 ssj
 ylv
 mjT
