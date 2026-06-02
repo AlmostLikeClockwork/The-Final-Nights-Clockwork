@@ -16,7 +16,6 @@
 	// TFN EDIT END
 	GLOB.masquerade_breakers_list -= src
 	GLOB.sabbatites -= src
-/* TFN EDIT REMOVAL
 	last_death_info = new()
 	last_death_info.record_death(src)
 
@@ -33,7 +32,6 @@
 	last_attacker_name = dead_guy.lastattacker
 	last_words = dead_guy.last_words
 	suicide = HAS_TRAIT(dead_guy, TRAIT_SUICIDED)
-*/ //TFN EDIT REMOVAL END
 
 // TFN EDIT START
 /mob/living/carbon/human/proc/report_murder_to_police(turf/death_turf)
