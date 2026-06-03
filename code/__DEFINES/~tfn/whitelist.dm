@@ -5,6 +5,7 @@
 #define WHITELIST_KINFOLK  "kinfolk"
 #define WHITELIST_GAROU    "garou"
 #define WHITELIST_TRUSTED  "trusted"
+#define WHITELIST_CORAX "corax"
 
 
 GLOBAL_LIST_INIT(default_player_whitelists, list(
@@ -12,6 +13,7 @@ GLOBAL_LIST_INIT(default_player_whitelists, list(
 	WHITELIST_VAMPIRE,
 	WHITELIST_GHOUL,
 	WHITELIST_KINFOLK,
+	WHITELIST_CORAX
 ))
 
 GLOBAL_LIST_INIT(splat_whitelists, list(
@@ -19,4 +21,5 @@ GLOBAL_LIST_INIT(splat_whitelists, list(
 	SPLAT_GHOUL   = WHITELIST_GHOUL,
 	SPLAT_GAROU   = WHITELIST_GAROU,
 	SPLAT_KINFOLK = WHITELIST_KINFOLK,
+	SPLAT_CORAX = WHITELIST_CORAX,
 ))
