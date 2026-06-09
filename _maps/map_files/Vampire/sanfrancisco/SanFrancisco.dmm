@@ -45019,20 +45019,6 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights/community)
-"lfW" = (
-/obj/structure/vampipe{
-	icon_state = "piping43"
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/vampipe{
-	icon_state = "piping36"
-	},
-/turf/open/floor/plating/canal,
-/area/vtm/interior/sewer)
 "lfX" = (
 /obj/structure/railing,
 /turf/open/openspace,
@@ -135452,8 +135438,8 @@ hge
 hge
 hge
 hge
-gpd
-lfW
+hge
+skK
 gpd
 gpd
 gpd
